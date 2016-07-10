@@ -1,0 +1,37 @@
+body {
+	background: url(../images/RiverInFall.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.transparentbox {
+	opacity: 0.3;
+	 filter: alpha(opacity=0.3);
+	 background-color: #FFFFFF
+	 
+}
+div .transparentbox h2 h1{
+	opacity: 1;
+	font-weight: bold;
+	color: #000000
+}
+.img-circle {
+	border-radius: 100%;
+}
+nav {
+	background-color: black;
+	height: 2em
+	margin: 0;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	width: 100%;
+	text-align: center;	
+}
+a:link {
+	text-decoration: none;
+	color: black;
+	
+}
